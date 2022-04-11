@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title> movee home page </title> 
+<link rel="stylesheet" type="text/css" href="home.css">
+<img id="logo" src="logo.png"/> 
+<a id="profile" class="headerLinks" href="">profile</a> 
+<a id="about" class="headerLinks" href=""> about me </a> <br> 
+<hr></hr>  
+
+<div>
+<p>More of what you like </p> 
+<div class="movieBox" > 
+<img class="movie" src="dr strange.jpg"/> 
+<img  src=""/> 
+
+</div>
+</div> 
+
+<div>
+<p>Try something new </p> 
+<div class="movieBox" > 
+<img  src=""/> 
+<img  src=""/> 
+
+</div>
+</div> 
+
+
+
+</head> 
+	<body> 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body> 
+	
+
+</html> 

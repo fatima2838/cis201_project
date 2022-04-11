@@ -1,0 +1,83 @@
+<!doctype html> 
+<!-- Notes 
+
+***I used the sizes from marvel app thingy but everything is too big  
+** the button borders look tacky, fix it
+** make a grid with four choice option instead of 3 next to each other  --> 
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="quiz.css"> 
+</head>  
+<body>
+ <div class="questionBox"> <p class="questionText" >question 1 </p></div> 
+
+<button class="answerBox" onclick="addC()"><p class="answerText">choice 1 </P></button>
+<button class="answerBox" onclick="addA()"><p class="answerText">choice 1</p> </button>
+<button class="answerBox" onclick="addD()"><p class="answerText">choice 1</p> </button>
+
+<div class="questionBox"> <p class="questionText">question 2 </p></div> 
+
+<button  class="answerBox"onclick="addA()"><p class="answerText">choice 1 </p></button>
+<button class="answerBox" onclick="addC()"><p class="answerText">choice 1 </p></button>
+<button class="answerBox" onclick="addD()"><p class="answerText">choice 1</p> </button>
+
+<div class="questionBox"> <p class="questionText">question 3 </p></div> 
+
+<button class="answerBox" onclick="addD()"><p class="answerText">choice 1 </p></button>
+<button class="answerBox" onclick="addA()"><p class="answerText">choice 1 </p></button>
+<button class="answerBox" onclick="addC()"><p class="answerText">choice 1 </p></button>
+
+
+
+<div class="questionBox"> <p class="questionText">question 4 </p></div> 
+
+<button class="answerBox" onclick="addC()"><p class="answerText">choice 1 </p></button>
+<button class="answerBox"  onclick= "addA()"><p class="answerText">choice 1 </p></button>
+<button class="answerBox" onclick="addD()"><p class="answerText">choice 1 </p></button></br>
+
+<a href="home.html"><button id="submitButton" onclick=""> <p class="answerText"> submit</p></button> </a>
+
+<!-- dont look at this im not done --> 
+<script type="text/javascript" src="users.js">
+var  c  ; 
+var a ; 
+var d  ; 
+
+
+let u1 = new users(); 
+	vary = promt("what is your name"); 
+ u1.setName(y) ; 
+ 
+ 
+function addA() {
+a++; 
+   u1.setAction(a);  
+}
+
+function addC() {
+	c++; 
+   u1.setComedy(c) ; 
+   
+   }
+
+function addD() {
+		d++; 
+		
+  u1.setDrama(d)  
+}
+
+console.log(u1.getComedy()) ; 
+
+
+
+
+
+</script> 
+<style>
+
+</style> 
+
+ </body> 
+
+</html>

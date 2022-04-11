@@ -1,0 +1,70 @@
+<!Doctype html> 
+
+<html lang = "en" >
+
+<head> <title> </title> 
+
+<link rel="stylesheet" type="text/css" href="landingPage.css"> </head> 
+
+<body >
+<!--  use the jquery animate() function to make the content sllowly appear --> 
+
+<p id="text" > heyy ! <br>
+before we get started <br>
+we would like to ask u some questions</p>
+
+<a href= "thequiz.html" id="button"><button class="selector"> <p id="buttontext"> LET'S GOO<p> </button> </a> 
+<script> 
+
+
+
+</script> 
+<!--<style> 
+body {
+  background-color: #13CEA2;
+  width: 1440px;
+  height: 1024px;
+  align-content: center;
+}
+
+#text { 
+ color: #FFFFFF;
+  font-family: Helvetica  ;
+  font-size: 50px;
+    text-align: center;
+} 
+
+
+
+.selector{
+  background-color: #5A6978;
+  width: 442px;
+  height: 180px;
+  border-radius: 30px; 
+
+
+}
+#button{ 
+display: flex
+display: grid
+} 
+ 
+ #buttontext {
+  color: #FFFFFF;
+  font-family: Helvetica;
+  font-size: 50px;
+  line-height: 65px;
+  text-align: center;
+  
+}
+
+
+</style> --> 
+
+
+</body> 
+
+
+
+
+</html>

@@ -1,0 +1,50 @@
+body{
+ background-color: #181818; 
+ width: 1920px;  
+ height: 1080px; 
+ } 
+ 
+ .headerLinks {
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: left;
+  padding : 40px; 
+  position: absolute;
+ 
+}
+
+#profile{ 
+ left: 786px;
+  top: 60px ;
+} 
+#about{ 
+left: 977px;
+  top: 60px;
+} 
+
+p{
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: left;
+}
+
+.movieBox{ 
+  background-color: #212121;
+  width: 1782px;
+  height: 320px;
+}
+
+.movie{
+	
+	
+  width: 200px;
+  height: 300px;
+
+	
+} 
+
+

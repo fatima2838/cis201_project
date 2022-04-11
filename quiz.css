@@ -1,0 +1,38 @@
+body{ 
+background-color: #212121; 
+} 
+
+.questionBox {
+  margin: auto;
+  background-color: #699D80;
+  width: 935px;
+  height: 308px;
+}
+
+.questionText{ 
+text-align: center;
+color: #FFFFFF;
+  font-family: Verdana; 
+  font-size: 50px;
+} 
+
+.answerBox{ 
+ background-color: #699D80;
+  width: 393px;
+  height: 279px;
+ 
+} 
+
+.answerText{
+	text-align: center;
+    color: #FFFFFF;
+  font-family: Verdana; 
+  font-size: 20px; 
+	
+} 
+
+#submitButton {
+  background-color: #699D80;
+  width: 630px;
+  height: 308px;
+}
