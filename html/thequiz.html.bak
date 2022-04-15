@@ -3,11 +3,13 @@
 
 ***I used the sizes from marvel app thingy but everything is too big  
 ** the button borders look tacky, fix it
-** make a grid with four choice option instead of 3 next to each other  --> 
+** make a grid with four choice option instead of 3 next to each other 
+
+ --> 
 <html>
 <head>
 
-<link rel="stylesheet" type="text/css" href="quiz.css"> 
+<link rel="stylesheet" type="text/css" href="C:\Users\Fatim\Desktop\THIRD SEMESTER\CIS201\Project\project rough draft\cis201_project\css\quiz.css"> 
 </head>  
 <body>
  <div class="questionBox"> <p class="questionText" >question 1 </p></div> 
