@@ -1,0 +1,61 @@
+body{
+ background-color: #181818; 
+ width: 1920px;  
+ height: 1080px; 
+ 
+} 
+ 
+ 
+hr{ 
+
+color: white; 
+} 
+
+ 
+.headerLinks{
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: left;
+  padding : 40px; 
+  position: absolute;
+}
+
+
+#profile{ 
+ left: 786px;
+  top: 60px ;
+} 
+#about{ 
+left: 977px;
+  top: 60px;
+}
+
+  
+  
+/* the previous code is for the header, copy this in home, profile, and about me css files */ 
+
+.nameandpic{ 
+position: absolute; 
+left: 333px; 
+top: 350px; 
+}
+
+#picture{ 
+border-radius: 50%; 
+} 
+#name{ 
+color: #FFFFFF;
+  font-family: Arial;
+  font-size: 10px;
+  text-align: center; 
+} 
+
+.description{ 
+
+position: absolute; 
+left: 912px; 
+top: 428px; 
+
+} 
