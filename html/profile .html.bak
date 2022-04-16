@@ -21,9 +21,13 @@
 </div> 
 
 
+<div class="description" > 
+<p > bla bla abla </p>
 
-<button> edit profile</button> 
 
+
+<button id="editprofile" color="white"> edit profile</button> 
+</div> 
 
 
 

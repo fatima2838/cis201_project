@@ -44,18 +44,31 @@ top: 350px;
 
 #picture{ 
 border-radius: 50%; 
+
 } 
 #name{ 
 color: #FFFFFF;
   font-family: Arial;
-  font-size: 10px;
+  font-size: 15px;
   text-align: center; 
 } 
 
 .description{ 
 
 position: absolute; 
-left: 912px; 
-top: 428px; 
+left: 750px; 
+top: 430px; 
+color: white; 
 
+} 
+
+
+
+#editprofile{ 
+
+background-color: #47525E;
+  border-radius: 5px;
+  width: 100px;
+  height: 69px;
+color: white; 
 } 
