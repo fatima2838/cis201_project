@@ -25,7 +25,7 @@ Transcript<br>
 
  </p> 
  
- <table>
+ <table id="transcript">
   <tr>
     <th>course code </th>
     <th>course name </th>

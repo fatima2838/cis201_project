@@ -6,16 +6,27 @@
 <head> 
 <title> movee home page </title> 
 <link rel="stylesheet" type="text/css" href="..\css/home.css">
-<img id="logo" src="..\pictures/logo.png"/> 
+
+
+<a href="home.html">  <img id="logo" src="..\pictures/logo.png"/> </a> 
 <a id="profile" class="headerLinks" href="profile .html">profile</a> 
 <a id="about" class="headerLinks" href="about me .html"> about me </a> <br> 
-<hr></hr>  
+<hr></hr> 
+
+</head> 
+
+<body onload="change()"> 
+
 
 <div>
 <p>More of what you like </p> 
 <div class="movieBox" > 
-<img class="movie" src="..\pictures/drStrange.png"/> 
-<img  src=""/> 
+<img id="m1"  src="..\pictures/PLACEHOLDER MOVIE.png"/> 
+<img id="m2"  src="..\pictures/PLACEHOLDER MOVIE.png"/> 
+<img id="m3"  src="..\pictures/PLACEHOLDER MOVIE.png"/> 
+<img id="m4"  src="..\pictures/PLACEHOLDER MOVIE.png"/> 
+
+
 
 </div>
 </div> 
@@ -31,8 +42,7 @@
 
 
 
-</head> 
-	<body> 
+
 	
 	
 	
@@ -40,8 +50,12 @@
 	
 	
 	
+<script> 
+function change(){
 	
-	
+	document.getElementById("m1").src= "..\pictures/kelly.jpeg"; 
+} 
+</script> 
 	</body> 
 	
 

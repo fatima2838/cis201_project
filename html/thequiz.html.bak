@@ -9,7 +9,7 @@
 <html>
 <head>
 
-<link rel="stylesheet" type="text/css" href="C:\Users\Fatim\Desktop\THIRD SEMESTER\CIS201\Project\project rough draft\cis201_project\css\quiz.css"> 
+<link rel="stylesheet" type="text/css" href="..\css/quiz.css"> 
 </head>  
 <body>
  <div class="questionBox"> <p class="questionText" >question 1 </p></div> 
