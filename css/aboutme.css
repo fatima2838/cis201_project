@@ -1,5 +1,5 @@
 body{
- background-color: #181818; 
+ background-color: #181818 !important; 
  width: 1920px;  
  height: 1080px; 
  
@@ -8,7 +8,7 @@ body{
  
 hr{ 
 
-color: white; 
+color: white !important; 
 } 
 
  
@@ -40,7 +40,7 @@ left: 977px;
 /* the previous code is for the header, copy this in home, profile, and about me css files */ 
 
 table, th, td {
- border: 1px solid white;
+ border: 1px solid white  !important ;
 font-family : Arial; 
 color: white ; 
   width: 500px; 
@@ -50,7 +50,7 @@ color: white ;
 
 }
 
-#transcript{ 
+#transcript
 position: absolute;
 left: 561px; 
 top: 560px;

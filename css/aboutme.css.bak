@@ -1,5 +1,5 @@
 body{
- background-color: #181818; 
+ background-color: #181818 !important; 
  width: 1920px;  
  height: 1080px; 
  
@@ -8,13 +8,13 @@ body{
  
 hr{ 
 
-color: white; 
+color: white !important; 
 } 
 
  
 .headerLinks{
   color: #FFFFFF;
-  font-family: Verdana;
+  font-family: Arial;
   font-size: 26px;
   line-height: 33px;
   text-align: left;
@@ -40,8 +40,8 @@ left: 977px;
 /* the previous code is for the header, copy this in home, profile, and about me css files */ 
 
 table, th, td {
- border: 1px solid white;
-font-family : Verdana; 
+ border: 1px solid white  !important;
+font-family : Arial; 
 color: white ; 
   width: 500px; 
   margin-left: auto; 
@@ -63,7 +63,7 @@ top: 560px;
 left: 561px; 
 top: 284px; 
   color: white;
-  font-family: Verdana;
+  font-family: Arial;
   font-size: 20px;
   line-height: 20px;
   width: 655px;
