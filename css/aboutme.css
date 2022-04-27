@@ -1,14 +1,12 @@
 body{
- background-color: #181818 !important; 
- width: 1920px;  
- height: 1080px; 
- 
+ background-color: #181818 !important;
+
 } 
- 
+
  
 hr{ 
 
-color: white !important; 
+color: white !important;
 } 
 
  
@@ -18,15 +16,9 @@ color: white !important;
   font-size: 26px;
   line-height: 33px;
   text-align: left;
-  padding : 40px; 
+  
   position: absolute;
 }
-
-
-
-
- 
- 
 
 
 #profile{ 
@@ -36,7 +28,10 @@ color: white !important;
 #about{ 
 left: 977px;
   top: 60px;
-} 
+}
+
+  
+  
 /* the previous code is for the header, copy this in home, profile, and about me css files */ 
 
 table, th, td {

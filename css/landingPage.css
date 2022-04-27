@@ -1,36 +1,36 @@
 body {
-  background-color: #13CEA2;
-  width: 1440px;
+  background-color: #13CEA2 !important;
+  /*width: 1440px;
   height: 1024px;
-  align-content: center;
+  align-content: center;*/
 }
 
 #text { 
  color: #FFFFFF;
   font-family: Helvetica  ;
   font-size: 50px;
-    text-align: center;
+  text-align: center;
 } 
 
 
 
-.selector{
+button{
   background-color: #5A6978;
   width: 442px;
   height: 180px;
 
 
 }
-#button{ 
-display: flex
-display: grid
-} 
- 
+
  #buttontext {
   color: #FFFFFF;
   font-family: Helvetica;
   font-size: 50px;
   line-height: 65px;
   text-align: center;
+  text-decoration:none; 
   
 }
+a{
+	text-decoration:none; 
+} 

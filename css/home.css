@@ -1,19 +1,25 @@
 body{
- background-color: #181818; 
- width: 1920px;  
- height: 1080px; 
- } 
+ background-color: #181818 !important;
+
+} 
+
  
- .headerLinks {
+hr{ 
+
+color: white !important;
+} 
+
+ 
+.headerLinks{
   color: #FFFFFF;
-  font-family: Lato;
+  font-family: Arial;
   font-size: 26px;
   line-height: 33px;
   text-align: left;
-  padding : 40px; 
+  
   position: absolute;
- 
 }
+
 
 #profile{ 
  left: 786px;
@@ -22,8 +28,11 @@ body{
 #about{ 
 left: 977px;
   top: 60px;
-} 
+}
 
+  
+  
+/* the previous code is for the header, copy this in home, profile, and about me css files */ 
 p{
   color: #FFFFFF;
   font-family: Lato;

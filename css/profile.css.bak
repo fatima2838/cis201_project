@@ -16,7 +16,7 @@ color: white !important;
   font-size: 26px;
   line-height: 33px;
   text-align: left;
-  padding : 40px; 
+  
   position: absolute;
 }
 
@@ -35,7 +35,13 @@ left: 977px;
 /* the previous code is for the header, copy this in home, profile, and about me css files */ 
 
 
-
+/*
+.nameandpic{ 
+position: absolute; 
+left: 333px; 
+top: 350px; 
+}
+*/ 
 
 
 #picture{ 
@@ -51,9 +57,10 @@ color: #FFFFFF;
 
 .description{ 
 
-position: absolute; 
+/*position: absolute; 
 left: 750px; 
-top: 430px; 
+top: 430px; */ 
+
 color: white; 
 
 } 
@@ -67,4 +74,11 @@ background-color: #47525E;
   width: 100px;
   height: 50px;
 color: white; 
+}
+
+*{ 
+margin: 0;
+
+ 
+
 } 

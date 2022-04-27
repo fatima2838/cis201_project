@@ -28,11 +28,11 @@ wow cool project bla bla bla <br>
 
 Transcript<br>
 
- </p> </div> 
+ </p> </div> </div> 
  
  
  <div class="row">
- <div class"col-md-12">
+ <div class="col-md-12">
  <table id="transcript">
   <tr>
     <th>course code </th>
@@ -76,7 +76,7 @@ Transcript<br>
   </tr>
   
  </table></div> </div> 
- </div></div>
+ </div>
  
 </body> 
 
