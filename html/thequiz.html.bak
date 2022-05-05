@@ -20,17 +20,17 @@
 <div class="col-8 questionBox"> <p class="questionText" >question 3 </p></div> </div> 
  
 <div class="row justify-content-center">	
-		<button class="col-3 answerBox " onclick="addC()"><p class="answerText">choice 1 </P></button>
+		<button class="col-3 answerBox "  class="answerText">choice 1 </button>
 		<div class="col-1"></div>
-		<button class="col-3 answerBox" onclick="addA()"><p class="answerText">choice 2</p> </button></div> 
+		<button class="col-3 answerBox" onclick="addA()" class="answerText">choice 2 </button></div> 
 <div class="row justify-content-center">
 
-		<button class="col-3 answerBox " onclick="addC()"><p class="answerText">choice 3 </P></button>
+		<button class="answerText col-3 answerBox " onclick="addC()"><p class="answerText">choice 3 </button>
 		<div class="col-1"></div>
 		<button class="col-3 answerBox" onclick="addA()"><p class="answerText">choice 4</p> </button></div> </div> 
 
 <!--qustion 2 --> 
-<div class="container"> 
+<div id ="second" class="container"> 
 <div class="row justify-content-center"> 
 <div class="col-8 questionBox"> <p class="questionText" >question 3 </p></div> </div> 
  
@@ -79,12 +79,13 @@
 <div class="container"> 
 <div class="row"> 
 
-<button  class="col text-center" id="submitButton" onclick=""><a href="home.html"> <p class="answerText"> submit</p></a></button></div> 
+<button  class="col text-center" id="submitButton" onclick=""><a href="home.html" style="text-decoration:none"> <p class="answerText"> submit</p></a></button></div> 
 
 </div> 
 
+<script> 
 
-
+</script> 
  </body> 
 
 </html>
