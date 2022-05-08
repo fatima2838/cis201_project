@@ -2,6 +2,7 @@ body{
  background-color: #181818 !important;
 width: 100%; 
 height: 100%; 
+margin:0px;
 } 
 
  
@@ -9,7 +10,10 @@ hr{
 
 color: white !important;
 } 
-
+#logo{
+margin-left: 0px;	
+	
+}
  
 .headerLinks{
   color: #FFFFFF;
@@ -40,23 +44,27 @@ p{
   font-size: 30px;
   line-height: 39px;
   text-align: left;
+  margin-left: 60px; 
+  margin-bottom:0px; 
 }
 
 .movieBox{ 
+
   background-color: #212121;
   width: 1782px;
   height: 320px;
- margin: auto;
+margin-top:0; 
+ 
+	
+}
+.movieposition{
+	position: relative;
+	background-color: #212121;
+	
+	
+
 }
 
-.movie{
-	
-	margin: auto;
-  width: 200px;
-  height: 300px;
-padding : 15px; 
-	
-} 
 *{
 font-family: Vernada; 
 } 
