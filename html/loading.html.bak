@@ -97,9 +97,7 @@ left:0;
  
 	
 }  
-.row{
-margin-left:0px;
-}
+
 .row.movieposition{
    display: flex;
   justify-content: center;
