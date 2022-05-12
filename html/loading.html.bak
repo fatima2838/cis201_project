@@ -196,7 +196,7 @@ left:0;
 }
 setTimeout("showposter()", 1650); // after 1.65 sec bc the animation is 1.5s , the poster shows up 0.15 after	
  
-	
+	// if u want something to work onload invoke the function after the definition 
 	</script> 
 
 	</body> 
