@@ -55,12 +55,13 @@ color: #FFFFFF;
 
 /*https://stackoverflow.com/questions/48428779/square-columns-in-bootstrap*/
 
-/* FAILED ATTEMPT AT SNAP- SCROLL 
+
 .quizcontainer{
 	width: 100%; 
 	height: 100%; 
 	scroll-snap-type: y proximity; 
 	overflow: scroll; 
+	
 	.section{
 		display: flex; 
 		width : 100vw; 
@@ -69,4 +70,4 @@ color: #FFFFFF;
 	} 
 	
 	
-} */ 
+} 

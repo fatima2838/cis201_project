@@ -16,7 +16,7 @@ margin-bottom: 20px;
 text-align: center;
 color: #FFFFFF;
   font-family: Verdana; 
-  font-size: 50px;
+  font-size: 20px;
 } 
 
 .answerBox{ 
@@ -54,3 +54,19 @@ color: #FFFFFF;
 }
 
 /*https://stackoverflow.com/questions/48428779/square-columns-in-bootstrap*/
+
+/* FAILED ATTEMPT AT SNAP-SCROLL 
+.quizcontainer{
+	width: 100%; 
+	height: 100%; 
+	scroll-snap-type: y proximity; 
+	overflow: scroll; 
+	.section{
+		display: flex; 
+		width : 100vw; 
+		height: 100vh;
+		scroll-snap-align: start; 
+	} 
+	
+	
+} */ 
