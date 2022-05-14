@@ -19,7 +19,7 @@ we would like to ask u some questions</p></div> </div>
 
 <div class="row justify-content-center"> 
 
-<button  class="col-4" id="submitButton" ><a href="thequiz.html"><p id="buttontext"> LET'S GOO</p></a></button></div> 
+<button  class="col-4" id="submitButton" ><a href="thequiz.html" style="text-decoration:none"><p id="buttontext"> LET'S GOO</p></a></button></div> 
 
  </div> 
 

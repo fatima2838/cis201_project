@@ -58,7 +58,7 @@ height: 70px;
 
 </style>
 </head> 
-<body>
+
 <div class="container"> 
 <div class="row">
 <div class="col-md-4 align-self-start">
@@ -87,7 +87,7 @@ height: 70px;
 
 
 <!--attempting to use bootstrap--> 
-
+<body>
 <div class="container" > 
 <div class="row"> 
 

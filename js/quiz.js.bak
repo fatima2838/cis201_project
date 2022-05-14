@@ -1,12 +1,10 @@
 
-
 var a = 0 ; 
 var b = 0 ; 
 var c = 0 ; 
-var d = 0 ;
-
+var d = 0 ; 
  
-console.log(a); 
+
 
 let ChoiceA = "A"; 
 let ChoiceB = "B"; 
@@ -17,38 +15,69 @@ let ChoiceD = "D";
 function question(answer){ 
 
 if (answer== "A") {
+	
 	a++; 
 console.log("a = " + a); 
-function writeA(){
-console.log(a);
-};
-
 } 
+
 else if (answer== "B") {
 	b++; 
 	console.log("b = " + b); 
-	 public function writeB(){
 
-};
-writeB.staticProperty = b; 
 } 
 else if (answer== "C") {
 	c++; 
 	console.log("c = " + c); 
-	 function writeC(){
-console.log(c);
-};
-writeC.staticProperty = c; 
+
+
 
 } else if (answer== "D"){
 	d++; 
 console.log("d = " + d);
- function writeD(){
-console.log(d);
-} ; 
+
 }
 
-} 
+}
+
+
+function submit(){ 
+
+var w = window.open("\../html/home.html");} 
+
+ // in submit function allow the website to load different home pages based on the a,b,c ,d values 
+ 
+ // you have to write 4 different homepages with 4 different js files 
+ /// orrrr you could change the java script foe the home page 
+ 
+ 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // document.getElementById("myBtn").onclick = displayDate;

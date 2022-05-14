@@ -1,54 +1,13 @@
-// this is the quiz portion 
-
-var a = 0 ; 
-var b = 0 ; 
-var c = 0 ; 
-var d = 0 ;
 
 
- 
-console.log(a); 
 
-let ChoiceA = "A"; 
-let ChoiceB = "B"; 
-let ChoiceC = "C"; 
-let ChoiceD = "D"; 
-
-
-function question(answer){ 
-
-if (answer== "A") {
-	a++; 
-console.log("a = " + a); 
-
-
-} 
-else if (answer== "B") {
-	b++; 
-	console.log("b = " + b); 
-	  
-
-} 
-else if (answer== "C") {
-	c++; 
-	console.log("c = " + c); 
-	 
-writeC.staticProperty = c; 
-
-} else if (answer== "D"){
-	d++; 
-console.log("d = " + d);
- 
-}
-var scoresArr = new Array(); 
-scoresArr = [a,b,c,d]; 
-
-} 
 
 
 
  
 // creating playlists 
+
+
 class movie{
 
 
@@ -105,6 +64,8 @@ var m21 = new movie("Community ","\../pictures/community.png");
 var m22 = new movie("Nathan For You ","\../pictures/nathanForYouPoster.png"); 
 var m23 = new movie("Friends","\../pictures/friends.png"); 
 
+// 1: super hero movie , 2: crime , 3: nerd movies , 4 : comedy/sitcoms 
+
 
 
 
@@ -116,6 +77,107 @@ playlist3 = [m13,m14,m15,m16,m17];
 
 playlist4 = [m19,m20,m21,m22,m23]; 
 
+
+const score = Math.floor(Math.random()*5); 
+ console.log(score); 
+ 
+ 
+ var playlists = new Array(); 
+ 
+ var playlistname = new Array(); 
+ 
+
+if (score == 1 ) {
+	playlists = [playlist1,playlist2,playlist3,playlist4]; 
+	playlistname = ["super hero movies" ,"crime" , "nerd movies "," comedy/sitcoms"] ; 
+	
+	
+} else if( score == 2 ) { 
+
+    playlists = [playlist2,playlist1,playlist3,playlist4]; 
+	playlistname = ["crime", "super hero movies" , "nerd movies "," comedy/sitcoms"];  
+}
+	
+	else if (score == 3) {
+	
+	playlists = [playlist1,playlist3,playlist4,playlist2]; 
+	
+	playlistname = ["super hero movies" , "nerd movies ", " comedy/sitcoms", "crime"]; 
+	
+
+}else if (score == 4) {
+	playlists = [playlist4,playlist2,playlist3,playlist1]; 
+	playlistname = [" comedy/sitcoms", "nerd movies ", "crime","super hero movies"]; 
+} 
+else{
+	playlists = [playlist4,playlist3,playlist2,playlist1]; 
+	playlistname = [" comedy/sitcoms", "nerd movies ", "crime","super hero movies"]; 
+}
+	
+	
+	
+	var label = document.getElementsByClassName('playlistname'); 
+	for(i = 0; i < moviebox.length; i++) {
+	label[i].innerHTML = playlistname[i]; } 
+	
+
+
+	var moviebox = document.getElementsByClassName("movieBox") ; 
+	for (i=0 ; i<moviebox.length ; i++){ 
+	let movierow = document.createElement("DIV"); 
+	movierow.setAttribute("class","row"); 
+	 moviebox[i].appendChild(movierow); 
+	 
+	for (j = 0 ; j<5 ; j++){
+	let pos = document.createElement("Div"); 
+	pos.setAttribute("class","col-md movieposition"); 
+	movierow.appendChild(pos); 
+	
+	let s = document.createElement("Div"); 
+	s.setAttribute("class","skeleton"); 
+	
+	 let x = document.createElement("IMG");
+	  	  x.style.visibility = "hidden" ; 
+
+	  x.setAttribute("class","movie"); 
+  x.setAttribute("src", playlists[i][j].source);
+  x.setAttribute("width", "200");
+  x.setAttribute("height", "300");
+  
+  
+    pos.appendChild(x);
+	
+	pos.appendChild(s); 
+		
+
+		}
+		
+	} 
+ 
+	
+// one for-loop for all rows of content  :) 
+
+	//var moviebox = document.getElementsByClassName('movieBox');
+	/* temporARILY commenting this 
+
+		
+			for(j = 0; j < 5; j++) {
+				
+	  let x = document.createElement("IMG");
+	  	  x.style.visibility = "hidden" ; 
+
+	  x.setAttribute("class","movie"); 
+  x.setAttribute("src", playlists[i][j].source);
+  x.setAttribute("width", "200");
+  x.setAttribute("height", "300");
+    moviebox[i].appendChild(x);
+	
+}
+  }
+*/ 
+
+//this is the old method where every row had its own for loop 	
+/* 
 var first = document.getElementById('first');
 
   for(i = 0; i < playlist1.length; i++) {
@@ -163,11 +225,8 @@ var fourth = document.getElementById('fourth');
 
 for(i = 0; i < playlist4.length; i++) {
 	  let x = document.createElement("IMG");
-	  let y = document.createElement("div");
-	  let z = document.createElement("div");
-	 z.setAttribute("class","movieposition"); 
-	  y.setAttribute("class","skeleton"); 
-	  x.style.visibility = "hidden" ; 
+	 
+	 
 	  x.setAttribute("class","movie"); 
 	  x.setAttribute("src", playlist4[i].source);
       x.setAttribute("width", "200");
@@ -176,7 +235,7 @@ for(i = 0; i < playlist4.length; i++) {
     fourth.appendChild(x);
 	
 }
-
+*/
 
 //<script type="text/javascript">
 
