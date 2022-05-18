@@ -107,7 +107,7 @@ if (score == 1 ) {
 
 }else if (score == 4) {
 	playlists = [playlist4,playlist2,playlist3,playlist1]; 
-	playlistname = [" comedy/sitcoms", "nerd movies ", "crime","super hero movies"]; 
+	playlistname = [" comedy/sitcoms","crime" ,"nerd movies ","super hero movies"]; 
 } 
 else{
 	playlists = [playlist4,playlist3,playlist2,playlist1]; 
@@ -123,6 +123,7 @@ else{
 
 
 	var moviebox = document.getElementsByClassName("movieBox") ; 
+	
 	for (i=0 ; i<moviebox.length ; i++){ 
 	let movierow = document.createElement("DIV"); 
 	movierow.setAttribute("class","row"); 
@@ -138,15 +139,13 @@ else{
 	
 	 let x = document.createElement("IMG");
 	  	  x.style.visibility = "hidden" ; 
-
 	  x.setAttribute("class","movie"); 
-  x.setAttribute("src", playlists[i][j].source);
-  x.setAttribute("width", "200");
-  x.setAttribute("height", "300");
+      x.setAttribute("src", playlists[i][j].source);
+      x.setAttribute("width", "200");
+      x.setAttribute("height", "300");
   
-  
+ 
     pos.appendChild(x);
-	
 	pos.appendChild(s); 
 		
 
@@ -154,7 +153,7 @@ else{
 		
 	} 
  
-	
+
 // one for-loop for all rows of content  :) 
 
 	//var moviebox = document.getElementsByClassName('movieBox');
@@ -250,8 +249,8 @@ for(i = 0; i < playlist4.length; i++) {
 setTimeout("showposter()", 1650); // after 1.65 sec bc the animation is 1.5s , the poster shows up 0.15 after	
  
  
- // create a div "movei position " and image and skeleton 
  
+ // scale 
  
  
  

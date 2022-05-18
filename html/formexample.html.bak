@@ -1,0 +1,45 @@
+<!DOCTYPE HTML> 
+
+
+<html> 
+<body> 
+<button onclick="showform()"> edit profile </button> 
+<button onclick="done()"> save </button> 
+
+
+<div id="theform" style="visibility: hidden" > 
+ <p>Add your details:</p>
+      <form>
+         User Name :<br> <input id="username"  type="text" name="username">
+         <br>
+         Name :<br> <input id="name" type="text" name="name">
+         <br>
+         Favorite Genre :<br> <input id="genre" type="text" name="genre">
+      </form>
+	  </div> 
+	  <p id="demo" > this is your name</p> 
+	  
+	  
+	  <script> 
+	  
+	  var x = document.getElementById("theform"); 
+	  
+	  function done(){ 
+	  
+	   //here we change the inner html of the card with what's inside the form 
+	   
+	   document.getElementById("demo").innerHTML = document.getElementById("name").value; 
+	   
+	  x.style.visibility = "hidden"; } 
+	  
+	  
+	  
+	  
+	  function showform(){ 
+	  
+	  
+	  x.style.visibility = "visible"; } 
+	  
+	  </script> 
+</body> 
+</html> 

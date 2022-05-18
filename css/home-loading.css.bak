@@ -24,7 +24,7 @@ hr{
 color: white !important;
 } 
 #logo{
-margin-left: 0px;	
+margin-left: -1px;	
 	
 }
  
@@ -51,14 +51,16 @@ left: 977px;
   
   
 /* the previous code is for the header, copy this in home, profile, and about me css files */ 
-p{
+.playlistname{
   color: #FFFFFF;
-  font-family: Lato;
+  font-family: 'Oswald', sans-serif;
+
   font-size: 30px;
   line-height: 39px;
   text-align: left;
   margin-left: 60px; 
   margin-bottom:0px; 
+  margin-top: 20px; 
 }
 
 .movieBox{ 
@@ -74,13 +76,10 @@ margin-top:0;
 	position: relative;
 	background-color: #212121;
 	
-	
+
 
 }
 
-*{
-font-family: Vernada; 
-} 
 
 
 
@@ -161,22 +160,33 @@ background-color: hsl(200, 20%, 95%);
 }
 
 .movie{
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	
 width: 200px; 
 height: 300px; 
 padding: 7px; 
-position: absolute;
+
 margin-top:10px; 
 margin-bottom:10px;
 top:0; 
 left:0;
- 
+
 	
 }  
+.movieposition:hover .movie{
+	
+		transform: scale(1.05);
+		
+}
 
 .row.movieposition{
    display: flex;
   justify-content: center;
   align-items: center;
-
- 
+width: 200px; 
+height: 300px; 
+ transition: transform .2s; 
+ opacity: 0 ; 
  }
