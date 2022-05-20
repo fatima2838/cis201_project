@@ -33,7 +33,7 @@ width: 300px;
  <img id="dropbtn" src="..\pictures/Untitled design (1).png" class="dropbtn"/>
   <div class="dropdown-content">
     <a href="profile .html">profile </a>
-    <a href="about me .html">About Me </a>
+    <a href="aboutmovee.html">About MOVEE  </a>
   
   </div>
 </div></div>
@@ -45,40 +45,7 @@ width: 300px;
 
 
 <body>
-<!-- OLD CODE 
-<div class="container" > 
-<div class="row"> 
 
-
-<div class="col-sm-12 col-md-6 col-lg-4" > 
-
-<div class="nameandpic"> 
-<img id="picture" src="..\pictures/spongebob.JPEG"> 
-<p id="name"> spongebob</p></div>  
-
-</div> 
-
-
-
-
-
-
-<div class="col-sm-12 col-md-6 col-lg-8 align-self-end">
-<!-- align-self-end puts the stuff at bottom of the cell
-
-
-
-
-<div class="description" > 
-<p > bla bla abla </p>
-<button id="editprofile"> edit profile</button> </div> 
-
-</div> 
-
-
-</div>
-</div> 
--->
 
 <div class="container"> 
 <div class="row"> 
@@ -143,36 +110,9 @@ width: 300px;
 
 
 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script type="text/javascript" src='C:\Users\Fatim\Desktop\THIRD SEMESTER\CIS201\Project\project rough draft\cis201_project\js\profile.js'> </script> 
 
- <script> 
-	  
-	  var x = document.getElementById("theform"); 
-	  
-	  function done(){ 
-	  
-	   document.getElementById("u").innerHTML= document.getElementById("usernameform").value;
-	   document.getElementById("n").innerHTML= document.getElementById("nameform").value;
-	    document.getElementById("g").innerHTML = document.getElementById("genreform").value ; 
-	
-	  x.style.visibility = "hidden"; 
-	  
-	  
-	  } 
-	 
-	 
-	 
-	  function showform(){ 
-
-	  document.getElementById("usernameform").defaultValue = document.getElementById("u").innerHTML ; 
-	  document.getElementById("nameform").defaultValue = document.getElementById("n").innerHTML ; 
-	  document.getElementById("genreform").defaultValue = document.getElementById("g").innerHTML ; 
-	
-	
-	  x.style.visibility = "visible"; } 
-	  
-	  </script> 
 
 </body> 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-
 </html> 
