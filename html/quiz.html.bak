@@ -102,7 +102,7 @@
 <div class="row justify-content-center">	
 		<button id="fifth-a" class="col-3 answerBox A" onclick="question(ChoiceA); change('fifth-a');"><p class="answerText">	Relaxing   </P></button>
 		<div class="col-1"></div>
-		<button id="fifth-b" class="col-3 answerBox B" onclick="question(ChoiceB); change('fifth-b'); "><p class="answerText">frightning</p> </button></div> 
+		<button id="fifth-b" class="col-3 answerBox B" onclick="question(ChoiceB); change('fifth-b'); "><p class="answerText">Frightning</p> </button></div> 
 <div class="row justify-content-center">
 
 		<button id="fifth-c" class="col-3 answerBox C" onclick="question(ChoiceC); change('fifth-c'); " ><p class="answerText">I don’t care  </P></button>

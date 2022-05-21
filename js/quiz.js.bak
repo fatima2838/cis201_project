@@ -49,12 +49,59 @@ var w = window.open("\../html/home-loading.html");}
 
 
 
+
+ 
 function change(id){
+
 	
-	document.getElementById(id).style.background = '#7eba56'; 
+		
+	
+		
+	if (document.getElementById(id).style.background ='#699D80'){
+		
+		
+	document.getElementById(id).style.background = '#53f581'; }
+	
+	 else{
+		
+		document.getElementById(id).style.background = '#699D80'; }
+	
+	
 	
 } 
 
+var count = 0 ; 
+
+function take(id){
+	var newid = id ; 
+	
+	if (current==newid) {
+		function change(){
+			 
+			count++;
+			if (count%2 != 0){
+				document.getElementById(id).style.background = '#53f581'; }
+	
+	 else if (count%2 == 0){
+		
+		document.getElementById(id).style.background = '#699D80'; }
+	}var current = id ; }
+	
+	
+	else if (current!=newid) {
+		function change(){
+			 
+			count = 0 ; 
+			if (count%2 != 0){
+				document.getElementById(id).style.background = '#53f581'; }
+	
+	 else if (count%2 == 0){
+		
+		document.getElementById(id).style.background = '#699D80'; }
+	}var current = id ; }
+	
+	
+} 
 
 
 

@@ -35,7 +35,7 @@ left: 977px;
 
   
   
-/* the previous code is for the header, copy this in home, profile, and about me css files */ 
+/******************************************************************************* */
 
 
 
@@ -155,10 +155,26 @@ font-family: Arial;
 	justify-content: center; 
 	width: 210px ; 
 	height : 210px ; 
-    background: linear-gradient(to right, pink , purple);
+    
 	 border-radius: 50%;
 	
 } 
+#fatima{
+background: linear-gradient(to right, pink , purple);	
+} 
+
+#blossom{
+	background: linear-gradient(to right, pink , red);	
+} 
+
+#buttercup{
+	background: linear-gradient(to right, black , green);	
+} 
+
+#bubbles{
+	background: linear-gradient(to right, yellow , blue);	
+} 
+
 table{
 
 
@@ -185,3 +201,24 @@ font-weight: bold;
 text-align: center; 
 }
 
+.contact{
+	font-family: Arial; 
+	color: white; 
+	text-align: center; 
+	margin-bottom: 100px; 
+} 
+
+/*
+#tweet{
+	text-align: center; 
+	
+} 
+#call{
+	text-align: center; 
+	margin-bottom: 100px; 
+} 
+#email{
+	text-align: center; 
+	margin-bottom: 100px; 
+} 
+*/ 

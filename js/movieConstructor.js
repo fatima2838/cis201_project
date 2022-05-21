@@ -144,10 +144,12 @@ else{
       x.setAttribute("width", "200");
       x.setAttribute("height", "300");
   
- 
+	let p = document.createElement("IMG"); 
+	p.setAttribute("class", "playbutton"); 
+	 p.setAttribute("src", "\../pictures/button.png");
     pos.appendChild(x);
 	pos.appendChild(s); 
-		
+	pos.appendChild(p); 	
 
 		}
 		

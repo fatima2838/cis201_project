@@ -49,9 +49,24 @@ var w = window.open("\../html/home-loading.html");}
 
 
 
+
+ 
 function change(id){
+
 	
-	document.getElementById(id).style.background = '#53f581'; 
+		
+	
+		
+	if (document.getElementById(id).style.background ='#699D80'){
+		
+		
+	document.getElementById(id).style.background = '#53f581'; }
+	
+	 else{
+		
+		document.getElementById(id).style.background = '#699D80'; }
+	
+	
 	
 } 
 

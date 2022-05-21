@@ -24,7 +24,7 @@ hr{
 color: white !important;
 } 
 #logo{
-margin-left: -1px;	
+margin-left: 0px;	
 	
 }
  
@@ -190,3 +190,24 @@ height: 300px;
  transition: transform .2s; 
  opacity: 0 ; 
  }
+
+
+.playbutton{
+visibility: hidden; 
+position:absolute; 
+top:125px; 
+ left:100px;
+width: 50px; 
+height: 50px; 
+z-index: 1000; 
+} 
+
+.movieposition:hover .playbutton{
+visibility: visible; 
+animation: fadeIn 0.7s; 
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
