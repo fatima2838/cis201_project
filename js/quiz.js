@@ -18,6 +18,7 @@ if (answer== "A") {
 	
 	a++; 
 console.log("a = " + a); 
+
 } 
 
 else if (answer== "B") {
@@ -44,20 +45,15 @@ function submit(){
 
 var w = window.open("\../html/home-loading.html");} 
 
- // in submit function allow the website to load different home pages based on the a,b,c ,d values 
- 
- // you have to write 4 different homepages with 4 different js files 
- /// orrrr you could change the java script foe the home page 
- 
- 
+
+
+
+
+function change(id){
 	
-
-
-
-
-
-
-
+	document.getElementById(id).style.background = '#53f581'; 
+	
+} 
 
 
 

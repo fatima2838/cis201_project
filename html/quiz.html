@@ -22,38 +22,39 @@
 <div class="col-8 questionBox"> <p class="questionText" >You’re in a family gathering and you see a fruit basket do you take an orange and start peeling it ?? </p></div> </div> 
  
 <div class="row justify-content-center">	
-		<button class="col-3 answerBox A answrapper" onclick="question(ChoiceA)">
+		<button id="first-a" class="col-3 answerBox A answrapper" onclick="question(ChoiceA); change('first-a');" >
 	<p class="answerText"> Yeah I love oranges </P></button>
 	
 		<div class="col-1"></div>
 		
-		<button class="col-3 answerBox B" onclick="question(ChoiceB)">
+		<button id="first-b"class="col-3 answerBox B" onclick="question(ChoiceB); change('first-b');">
 		<p class="answerText"> no, too much effort  </P></button></div> 
 		
 <div class="row justify-content-center">
 
-		<button class="col-3 answerBox C" onclick="question(ChoiceC)">
+		<button id="first-c" class="col-3 answerBox C" onclick="question(ChoiceC); change('first-c');">
 		<p class="answerText"> Wrong place </P></button>
 		<div class="col-1"></div>
 		
-		<button class="col-3 answerBox D" onclick="question(ChoiceD)">
-		<p class="answerText">no I’m not stupid </p> </button></div> </div> 
+		<button id="first-d" class="col-3 answerBox D" onclick="question(ChoiceD);  change('first-d');">
+		<p  class="answerText">no I’m not stupid </p> </button></div> </div> 
 </section> 
 <!--qustion 2 --> 
 <section> 
-<div id ="second" class="container"> 
+<div  class="container"> 
 <div class="row justify-content-center"> 
 <div class="col-8 questionBox"> <p class="questionText" >The office  vs Friends  </p></div> </div> 
  
 <div class="row justify-content-center">	
-		<button class="col-3 answerBox A" onclick="question(ChoiceA)"><p class="answerText">The office  >>>>>>>>>>> Friends </P></button>
+		<button id="second-a" class="col-3 answerBox A" onclick="question(ChoiceA); change('second-a');">
+		<p class="answerText">The office  >>>>>>>>>>> Friends </P></button>
 		<div class="col-1"></div>
-		<button class="col-3 answerBox B" onclick="question(ChoiceB)"><p class="answerText">The office  <<<<<<< Friends </p>  </button></div> 
+		<button id="second-b" class="col-3 answerBox B" onclick="question(ChoiceB); change('second-b')"><p class="answerText">The office  <<<<<<< Friends </p>  </button></div> 
 <div class="row justify-content-center">
 
-		<button class="col-3 answerBox C" onclick="question(ChoiceC)"><p class="answerText">The office  ==  Friends  </P></button>
+		<button id="second-c" class="col-3 answerBox C" onclick="question(ChoiceC); change('second-c');"><p class="answerText">The office  ==  Friends  </P></button>
 		<div class="col-1"></div>
-		<button class="col-3 answerBox D" onclick="question(ChoiceD)"><p class="answerText"> i dont care </p> </button></div> </div> 
+		<button id="second-d" class="col-3 answerBox D" onclick="question(ChoiceD); change('second-d');"><p class="answerText"> i dont care </p> </button></div> </div> 
 </section> 
 <!--qustion 3 --> 
 <section> 
@@ -62,14 +63,14 @@
 <div class="col-8 questionBox"> <p class="questionText" >	Anime is cool  </p></div> </div> 
  
 <div class="row justify-content-center">	
-		<button class="col-3 answerBox A" onclick="question(ChoiceA)"><p class="answerText">	True  </P></button>
+		<button id="third-a" class="col-3 answerBox A" onclick="question(ChoiceA); change('third-a');"><p class="answerText">	True  </P></button>
 		<div class="col-1"></div>
-		<button class="col-3 answerBox B" onclick="question(ChoiceB)"><p class="answerText">False </p> </button></div> 
+		<button id="third-b" class="col-3 answerBox B" onclick="question(ChoiceB); change('third-b');"><p class="answerText">False </p> </button></div> 
 <div class="row justify-content-center">
 
-		<button class="col-3 answerBox C" onclick="question(ChoiceC)"><p class="answerText">I think its not bad but not for me  </P></button>
+		<button id="third-c" class="col-3 answerBox C" onclick="question(ChoiceC); change('third-c'); "><p class="answerText">I think its not bad but not for me  </P></button>
 		<div class="col-1"></div>
-		<button class="col-3 answerBox D" onclick="question(ChoiceD)"><p class="answerText">choice 4</p> </button></div> </div> 
+		<button id="third-d" class="col-3 answerBox D" onclick="question(ChoiceD); change('third-d')"><p class="answerText">No opinion </p> </button></div> </div> 
 
 
 </section> 
@@ -79,17 +80,17 @@
 
 
 <div class="row justify-content-center"> 
-<div class="col-8 questionBox"> <p class="questionText" >	Elon mitski buying twitter is a good thing  </p></div> </div> 
+<div class="col-8 questionBox"> <p class="questionText" >	Is Elon mitski buying twitter is a good thing  </p></div> </div> 
  
 <div class="row justify-content-center">	
-		<button class="col-3 answerBox A" onclick="question(ChoiceA)"><p class="answerText">	True  </P></button>
+		<button id="fourth-a" class="col-3 answerBox A" onclick="question(ChoiceA); change('fourth-a');"><p class="answerText">	True  </P></button>
 		<div class="col-1"></div>
-		<button class="col-3 answerBox B" onclick="question(ChoiceB)"><p class="answerText">false</p> </button></div> 
+		<button id="fourth-b" class="col-3 answerBox B" onclick="question(ChoiceB); change('fourth-b');"><p class="answerText">False</p> </button></div> 
 <div class="row justify-content-center">
 
-		<button class="col-3 answerBox C" onclick="question(ChoiceC)"><p class="answerText">I don’t care  </P></button>
+		<button id="fourth-c" class="col-3 answerBox C" onclick="question(ChoiceC); change('fourth-c'); "><p class="answerText">I don’t care  </P></button>
 		<div class="col-1"></div>
-		<button class="col-3 answerBox D" onclick="question(ChoiceD)"><p class="answerText">choice 4</p> </button></div> </div> 
+		<button id="fourth-d" class="col-3 answerBox D" onclick="question(ChoiceD); change('fourth-d'); "><p class="answerText">I don't know </p> </button></div> </div> 
 
 </section> 
 <!--qustion 4 --> 
@@ -99,14 +100,14 @@
 <div class="col-8 questionBox"> <p class="questionText" >Watching a crime documentary </p></div> </div> 
  
 <div class="row justify-content-center">	
-		<button class="col-3 answerBox A" onclick="question(ChoiceA)"><p class="answerText">	relaxing   </P></button>
+		<button id="fifth-a" class="col-3 answerBox A" onclick="question(ChoiceA); change('fifth-a');"><p class="answerText">	Relaxing   </P></button>
 		<div class="col-1"></div>
-		<button class="col-3 answerBox B" onclick="question(ChoiceB)"><p class="answerText">frightning </p> </button></div> 
+		<button id="fifth-b" class="col-3 answerBox B" onclick="question(ChoiceB); change('fifth-b'); "><p class="answerText">Frightning</p> </button></div> 
 <div class="row justify-content-center">
 
-		<button class="col-3 answerBox C" onclick="question(ChoiceC)"><p class="answerText">I don’t care  </P></button>
+		<button id="fifth-c" class="col-3 answerBox C" onclick="question(ChoiceC); change('fifth-c'); " ><p class="answerText">I don’t care  </P></button>
 		<div class="col-1"></div>
-		<button class="col-3 answerBox D" onclick="question(ChoiceD)"><p class="answerText">choice 4</p> </button></div> </div> 
+		<button id="fifth-d" class="col-3 answerBox D" onclick="question(ChoiceD); change('fifth-d');"><p class="answerText">I don't like it but I cant stop watching </p> </button></div> </div> 
 </section> 		
 		<!--qustion 4 --> 
 		<section> 
@@ -115,33 +116,18 @@
 <div class="col-8 questionBox"> <p class="questionText" >Is your desktop clean and organised </p></div> </div> 
  
 <div class="row justify-content-center">	
-		<button class="col-3 answerBox A" onclick="question(ChoiceA)"><p class="answerText">	yes   </P></button>
+		<button id="sixth-a" class="col-3 answerBox A" onclick="question(ChoiceA); change('sixth-a');"><p class="answerText">	yes   </P></button>
 		<div class="col-1"></div>
-		<button class="col-3 answerBox B" onclick="question(ChoiceB)"><p class="answerText">no  </p> </button></div> 
+		<button id="sixth-b" class="col-3 answerBox B" onclick="question(ChoiceB); change('sixth-b'); "><p class="answerText">no  </p> </button></div> 
 <div class="row justify-content-center">
 
-		<button class="col-3 answerBox C" onclick="question(ChoiceC)"><p class="answerText">no, but i know where everything is   </P></button>
+		<button id="sixth-c" class="col-3 answerBox C" onclick="question(ChoiceC); change('sixth-c'); "><p class="answerText">no, but i know where everything is   </P></button>
 		<div class="col-1"></div>
-		<button class="col-3 answerBox D" onclick="question(ChoiceD)"><p class="answerText">my desktop is empty </p> </button></div> </div> 
+		<button id="sixth-d" class="col-3 answerBox D" onclick="question(ChoiceD); change('sixth-d'); "><p class="answerText">my desktop is empty </p> </button></div> </div> 
 			
 			
 			</section> 
-			<!--qustion 4 --> 
-			<section> 
-<div class="container"> 
-<div class="row justify-content-center"> 
-<div class="col-8 questionBox"> <p class="questionText" >Kanye is _____ </p></div> </div> 
- 
-<div class="row justify-content-center">	
-		<button class="col-3 answerBox A" onclick="question(ChoiceA)"><p class="answerText">	crazy    </P></button>
-		<div class="col-1"></div>
-		<button class="col-3 answerBox B" onclick="question(ChoiceB)"><p class="answerText">a good artist   </p> </button></div> 
-<div class="row justify-content-center">
-
-		<button class="col-3 answerBox C" onclick="question(ChoiceC)"><p class="answerText">i don't know  </P></button>
-		<div class="col-1"></div>
-		<button class="col-3 answerBox D" onclick="question(ChoiceD)"><p class="answerText">	All of the above  </p> </button></div> </div> 
-		</section> 
+			
 		<!--qustion 4 --> 
 		<section> 
 <div class="container"> 
@@ -149,14 +135,14 @@
 <div class="col-8 questionBox"> <p class="questionText" >Do u like carrot cake  </p></div> </div> 
  
 <div class="row justify-content-center">	
-		<button class="col-3 answerBox A" onclick="question(ChoiceA)"><p class="answerText">	yeahhh    </P></button>
+		<button id="seventh-a" class="col-3 answerBox A" onclick="question(ChoiceA); change('seventh-a');"><p class="answerText">	yeahhh    </P></button>
 		<div class="col-1"></div>
-		<button class="col-3 answerBox B" onclick="question(ChoiceB)"><p class="answerText">nooooo  </p> </button></div> 
+		<button id="seventh-b" class="col-3 answerBox B" onclick="question(ChoiceB); change('seventh-b');"><p class="answerText">nooooo  </p> </button></div> 
 <div class="row justify-content-center">
 
-		<button class="col-3 answerBox C" onclick="question(ChoiceC)"><p class="answerText">i havent tried it   </P></button>
+		<button id="seventh-c" class="col-3 answerBox C" onclick="question(ChoiceC); change('seventh-c');"><p class="answerText">i havent tried it   </P></button>
 		<div class="col-1"></div>
-		<button class="col-3 answerBox D" onclick="question(ChoiceD)"><p class="answerText">	meh... </p> </button></div> </div> 
+		<button id="seventh-d" class="col-3 answerBox D" onclick="question(ChoiceD); change('seventh-d');"><p class="answerText">	meh... </p> </button></div> </div> 
 		
 		
 		</section> 
