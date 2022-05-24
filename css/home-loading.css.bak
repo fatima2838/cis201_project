@@ -13,7 +13,7 @@ color: white !important;
 } 
 #logo{
 margin-left: 0px;	
-	
+	padding-left:0px;
 }
  
 .headerLinks{
@@ -52,15 +52,15 @@ margin-left: 0px;
 margin-bottom: 0px; 
 }
 
-.movieBox{ 
+.movieBox { 
 
   background-color: #212121;
   width: 1782px;
   height: 320px;
 margin-top:0; 
  
-	white-space: nowrap;
-  overflow-x: auto; 
+	
+ 
 
 }
 
