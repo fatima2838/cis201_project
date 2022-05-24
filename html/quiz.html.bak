@@ -162,7 +162,7 @@ window.sessionStorage.setItem("favoriteMovie", favoritemovie);
 </script> 
 
 
-<script type="../js/quiz.js'> </script> 
+<script type="text/javascript"  src='../js/quiz.js'> </script> 
  </div> 
  </body> 
 
