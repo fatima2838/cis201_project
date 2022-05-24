@@ -13,7 +13,7 @@ color: white !important;
 } 
 #logo{
 margin-left: 0px;	
-	
+	padding-left:0px;
 }
  
 .headerLinks{
@@ -46,9 +46,10 @@ left: 977px;
   font-size: 30px;
   line-height: 39px;
   text-align: left;
-  margin-left: 60px; 
-  margin-bottom:0px; 
-  margin-top: 20px; 
+ padding-left: 0px; 
+ 
+margin-left: 0px;  
+margin-bottom: 0px; 
 }
 
 .movieBox{ 
@@ -58,8 +59,12 @@ left: 977px;
   height: 320px;
 margin-top:0; 
  
-	
+	white-space: nowrap;
+  overflow-x: auto; 
+
 }
+
+
 .movieposition{
 	position: relative;
 	background-color: #212121;

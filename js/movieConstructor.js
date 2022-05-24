@@ -29,33 +29,33 @@ let playlist4 = new Array();
 
 
 
-var m1 = new movie("Dr. Strange","\../pictures/drStrange.png"); 
-var m2 = new movie("Captain Marvel", "\../pictures/captain-marvel.png");
-var m3 = new movie("Iron Man","\../pictures/IronMan.PNG");  
-var m4 = new movie("No Way Home","\../pictures/NoWayHome.PNG");
-var m5 = new movie("Stranger Things","\../pictures/StrangerThings.PNG");
+var m1 = new movie("Dr. Strange","../pictures/drStrange.png"); 
+var m2 = new movie("Captain Marvel", "../pictures/captain-marvel.png");
+var m3 = new movie("Iron Man","../pictures/IronMan.PNG");  
+var m4 = new movie("No Way Home","../pictures/NoWayHome.PNG");
+var m5 = new movie("Stranger Things","../pictures/StrangerThings.PNG");
 // doesnt fit the row : var m6 = new movie("No Way Home","\../pictures/no way home.PNG");
 
-var m7 = new movie("BreakingBad","\../pictures/BreakingBad.PNG"); 
-var m8 = new movie("Kill Bill","\../pictures/KillBill.PNG"); 
-var m9 = new movie("Black Mirror","\../pictures/BlackMirror.png"); 
-var m10 = new movie("Catch Me If You Can ","\../pictures/CatchMeIfYouCan.png"); 
-var m11 = new movie("Mr Robot ","\../pictures/MrRobot.png"); 
+var m7 = new movie("BreakingBad","../pictures/BreakingBad.PNG"); 
+var m8 = new movie("Kill Bill","../pictures/KillBill.PNG"); 
+var m9 = new movie("Black Mirror","../pictures/BlackMirror.png"); 
+var m10 = new movie("Catch Me If You Can ","../pictures/CatchMeIfYouCan.png"); 
+var m11 = new movie("Mr Robot ","../pictures/MrRobot.png"); 
 
   
-var m13 = new movie("The Social Network", "\../pictures/TheSocialNetwork.png") ; 
-var m14 = new movie("The Theory Of Everything ", "\../pictures/TheoryOfEverything.png") ; 
-var m15 = new movie("The Matrix", "\../pictures/TheMatrix.png") ; 
-var m16 = new movie("Inception", "\../pictures/Inception.png") ; 
-var m17 = new movie("Queens Gambit ","\../pictures/queensGambit.png");  
+var m13 = new movie("The Social Network", "../pictures/TheSocialNetwork.png") ; 
+var m14 = new movie("The Theory Of Everything ", "../pictures/TheoryOfEverything.png") ; 
+var m15 = new movie("The Matrix", "../pictures/TheMatrix.png") ; 
+var m16 = new movie("Inception", "../pictures/Inception.png") ; 
+var m17 = new movie("Queens Gambit ","../pictures/queensGambit.png");  
 //var m18 = new movie("The Witcher", "\../pictures/TheWitcher.png") ; 
 
   
-var m19 = new movie("The Office" ,"\../pictures/TheOffice.png"); 
-var m20 = new movie("The Simpsons","\../pictures/TheSimpsons.png") ; 
-var m21 = new movie("Community ","\../pictures/community.png"); 
-var m22 = new movie("Nathan For You ","\../pictures/nathanForYouPoster.png"); 
-var m23 = new movie("Friends","\../pictures/friends.png"); 
+var m19 = new movie("The Office" ,"../pictures/TheOffice.png"); 
+var m20 = new movie("The Simpsons","../pictures/TheSimpsons.png") ; 
+var m21 = new movie("Community ","../pictures/community.png"); 
+var m22 = new movie("Nathan For You ","../pictures/nathanForYouPoster.png"); 
+var m23 = new movie("Friends","../pictures/friends.png"); 
 
 // 1: super hero movie , 2: crime , 3: nerd movies , 4 : comedy/sitcoms 
 
