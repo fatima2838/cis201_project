@@ -23,6 +23,7 @@
 <div class="dropdown">
  <img id="dropbtn" src="..\pictures/Untitled design (1).png" class="dropbtn"/>
   <div class="dropdown-content">
+   <a href ="home-loading.html"> Home </a> 
     <a href="profile .html">Profile </a>
     <a href="aboutmovee.html"> About MOVEE  </a>
 	<a href="quiz.html">Retake quiz </a> 
@@ -69,7 +70,7 @@
 
 	
 	</script> 
-<script type="text/javascript" src='C:\Users\Fatim\Desktop\THIRD SEMESTER\CIS201\Project\project rough draft\cis201_project\js\movieConstructor.js'> </script> 
+<script type="text/javascript" src='..\js/movieConstructor.js'> </script> 
  
 	</body> 
 	

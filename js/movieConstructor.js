@@ -1,13 +1,6 @@
 
 
 
-
-
-
- 
-// creating playlists 
-
-
 class movie{
 
 

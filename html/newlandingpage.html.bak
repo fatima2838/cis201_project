@@ -8,7 +8,7 @@
 </head> 
 <body> 
 <div id="gr" >
-<img src="C:\Users\Fatim\Desktop\THIRD SEMESTER\CIS201\Project\project rough draft\cis201_project\pictures\1.png"></img>
+<img src="..\pictures\1.png"></img>
 
 <div id="welcome"> 
 
@@ -17,7 +17,7 @@
 <p class="watch" > you can take a quiz to personalize your home page</p> 
 
 <div class="centerbutton">
-<a href="..\html/home-loading.html"> <button id="go-quiz" > Start quiz</button> </a> 
+<a href="..\html/quiz.html"> <button id="go-quiz" > Start quiz</button> </a> 
 <a href="..\html/home-loading.html" > <button id="skip">skip </button> </a></div> 
 
 </div> 

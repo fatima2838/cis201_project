@@ -1,10 +1,4 @@
 
-
-
-
-
-
- 
 // creating playlists 
 
 
@@ -146,7 +140,7 @@ else{
   
 	let p = document.createElement("IMG"); 
 	p.setAttribute("class", "playbutton"); 
-	 x.setAttribute("src", "\../pictures/button.png");
+	 p.setAttribute("src", "\../pictures/button.png");
     pos.appendChild(x);
 	pos.appendChild(s); 
 	pos.appendChild(p); 	
