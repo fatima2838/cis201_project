@@ -24,6 +24,7 @@
 <div class="dropdown">
  <img id="dropbtn" src="..\pictures/Untitled design (1).png" class="dropbtn"/>
   <div class="dropdown-content">
+  <a href ="home-loading.html"> Home </a> 
     <a href="profile .html">Profile </a>
     <a href="aboutmovee.html">About MOVEE  </a>
 	<a href="quiz.html">Retake quiz </a> 
