@@ -69,6 +69,8 @@
 	<script type="text/javascript">
 
 	
+var favoritemovie = sessionStorage.getItem("favoriteMovie");
+console.log(favoritemovie);
 	</script> 
 <script type="text/javascript" src='..\js/movieConstructor.js'> </script> 
  
