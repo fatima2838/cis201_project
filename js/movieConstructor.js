@@ -15,10 +15,6 @@ this.source = source;
 } 
 
 
-
-
-
- 
 let playlist1 = new Array(); 
 
 let playlist2 = new Array(); 
@@ -70,7 +66,7 @@ playlist3 = [m13,m14,m15,m16,m17];
 
 playlist4 = [m19,m20,m21,m22,m23]; 
 
-
+//random number to determine the order in which the playlists will be displayed 
 const score = Math.floor(Math.random()*5); 
  console.log(score); 
  
@@ -109,12 +105,15 @@ else{
 	
 	
 	
+	
+	
+	//display the playlist names in html 
 	var label = document.getElementsByClassName('playlistname'); 
 	for(i = 0; i < label.length; i++) {
 	label[i].innerHTML = playlistname[i]; } 
 	
 
-
+	// this fills up the rows with the posters and the skeleton-loading div 
 	var moviebox = document.getElementsByClassName("movieBox") ; 
 	
 	for (i=0 ; i<moviebox.length ; i++){ 
@@ -147,12 +146,32 @@ else{
 		}
 		
 	} 
+	
+	
+	
+
+	function showposter() {
+  var poster = document.getElementsByClassName('movie');
+  for(i = 0; i < poster.length; i++) {
+    poster[i].style.visibility = "visible";
+  }
+   
+  
+}
+
+// after 1.65 sec bc the animation is 1.5s , the poster shows up 0.15 after	
+setTimeout("showposter()", 1650); 
+ 
  
 
-// one for-loop for all rows of content  :) 
+ 
+ 
+ 
+
+// old code don't grade  :) ......................................................................................
 
 	//var moviebox = document.getElementsByClassName('movieBox');
-	/* temporARILY commenting this 
+	/* 
 
 		
 			for(j = 0; j < 5; j++) {
@@ -229,92 +248,4 @@ for(i = 0; i < playlist4.length; i++) {
     fourth.appendChild(x);
 	
 }
-*/
-
-//<script type="text/javascript">
-
-		function showposter() {
-  var poster = document.getElementsByClassName('movie');
-  for(i = 0; i < poster.length; i++) {
-    poster[i].style.visibility = "visible";
-  }
-   
-  
-}
-setTimeout("showposter()", 1650); // after 1.65 sec bc the animation is 1.5s , the poster shows up 0.15 after	
- 
- 
- 
- // scale 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-	// if u want something to work onload invoke the function after the definition 
-	//</script> 
-
-/*
-playlist1 = [m1,m2,m3]; 
-document.getElementById('b').innerHTML = playlist1[0].name; 
-console.log(playlist1[0].name); 
-playlist1.push(new movie("new movie", "genre")); */ 
-
-
- // document.getElementById('b').src = m3.source;
-
-
-// document.getElementById("myBtn").onclick = displayDate;
-/* function getScores(){
- var choiceA = document.getElementsByClassName('answerBox A');
-  for(i = 0; i < choice.length; i++) {
-    choiceA[i].onlcick() = question(A) ;
-}
-
-var choiceB = document.getElementsByClassName('answerBox B');
-  for(i = 0; i < choice.length; i++) {
-    choiceB[i].onlcick() = question(B) ;
-}
-var choiceC = document.getElementsByClassName('answerBox C');
-  for(i = 0; i < choice.length; i++) {
-    choiceC[i].onlcick() = question(C) ;
-}
-
-var choiceC = document.getElementsByClassName('answerBox D');
-  for(i = 0; i < choice.length; i++) {
-    choiceC[i].onlcick() = question(D) ;
-}
-
-}
-*/ 
-
-
-/*
-var dynImages = new Array;
-Image = (function (org) {
-    return function () {
-        var result = new org;
-        dynImages.push(result);
-        return result;
-    };
-}(Image));
-
-
-var tmp = new Image();
-tmp.src = 'http://www.google.de/images/srpr/logo3w.png';
-document.body.appendChild(tmp);​
-
-console.log(dynImages);
 */

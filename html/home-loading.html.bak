@@ -39,14 +39,14 @@
 <body > 
 
 
-<p class="playlistname">  </p> 
+<p class="container playlistname">  </p> 
 <div class="container movieBox" > 
  </div>
  
  
  
  
- <p class="playlistname">  </p> 
+ <p class="container playlistname">  </p> 
 <div class="container movieBox" > 
 
 </div>
@@ -57,7 +57,7 @@
 
 </div>
 
-<p class="playlistname">  </p> 
+<p class="container playlistname">  </p> 
 <div class="container movieBox" > 
 
 </div>
